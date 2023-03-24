@@ -1,0 +1,210 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="InitAllApplicationsTestCase" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="648,1476.6666666666667" sap2010:WorkflowViewState.IdRef="TestCase_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="44">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="47">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="Verify if the InitAllApplications workflow works as expected.&#xA;The verification should check if after opening the applications, the expected state is reached." DisplayName="InitAllApplicationsTestCase" sap:VirtualizedContainerService.HintSize="658,1412" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="scg:Dictionary(x:String, x:Object)" Name="Config" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message - InitAllApplicationsTestCase" sap:VirtualizedContainerService.HintSize="596,96" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;InitAllApplicationsTestCase started.&quot;]" />
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="596,226" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke InitAllSettings workflow" sap:VirtualizedContainerService.HintSize="388,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Framework\InitAllSettings.xaml">
+        <ui:InvokeWorkflowFile.Arguments>
+          <InArgument x:TypeArguments="x:String" x:Key="in_ConfigFile">
+            <Literal x:TypeArguments="x:String">Data\Config.xlsx</Literal>
+          </InArgument>
+          <InArgument x:TypeArguments="s:String[]" x:Key="in_ConfigSheets">
+            <VisualBasicValue x:TypeArguments="s:String[]" ExpressionText="{}{&quot;Settings&quot;,&quot;Constants&quot;}" />
+          </InArgument>
+          <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="out_Config">
+            <VisualBasicReference x:TypeArguments="scg:Dictionary(x:String, x:Object)" ExpressionText="Config" />
+          </OutArgument>
+        </ui:InvokeWorkflowFile.Arguments>
+      </ui:InvokeWorkflowFile>
+    </Sequence>
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="596,226" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke InitAllApplications workflow" sap:VirtualizedContainerService.HintSize="388,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Framework/InitAllApplications.xaml">
+        <ui:InvokeWorkflowFile.Arguments>
+          <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[Config]</InArgument>
+        </ui:InvokeWorkflowFile.Arguments>
+      </ui:InvokeWorkflowFile>
+    </Sequence>
+    <Sequence sap2010:Annotation.AnnotationText="Check if the applications are in the expected state" DisplayName="... Then" sap:VirtualizedContainerService.HintSize="596,588" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify activity output" sap:VirtualizedContainerService.HintSize="534,291.3333333333333" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_2" Operator="Equality" OutputArgument="Exists" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+        <uta:VerifyControlAttribute.ActivityToTest>
+          <ActivityAction>
+            <uix:NCheckState DisplayName="Check App State 'UiPath'" EnableIfExists="False" EnableIfNotExists="False" sap:VirtualizedContainerService.HintSize="334,181.33333333333334" sap2010:WorkflowViewState.IdRef="NCheckState_1" Version="V3">
+              <uix:NCheckState.Exists>
+                <OutArgument x:TypeArguments="x:Boolean">
+                  <VariableReference x:TypeArguments="x:Boolean">
+                    <VariableReference.Variable>
+                      <Variable x:TypeArguments="x:Boolean" x:Name="__ReferenceID0" Name="_autogenerated_Exists" />
+                    </VariableReference.Variable>
+                  </VariableReference>
+                </OutArgument>
+              </uix:NCheckState.Exists>
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,107.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,107.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.OutUiElement>
+                <OutArgument x:TypeArguments="ui:UiElement">
+                  <VariableReference x:TypeArguments="ui:UiElement">
+                    <VariableReference.Variable>
+                      <Variable x:TypeArguments="ui:UiElement" Name="_autogenerated_OutUiElement" />
+                    </VariableReference.Variable>
+                  </VariableReference>
+                </OutArgument>
+              </uix:NCheckState.OutUiElement>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="404, 60, 129, 54" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'UiPath'" FullSelectorArgument="&lt;ctrl automationid='MainTitle' /&gt;&lt;ctrl name='UiPath' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MainTitle' /&gt;&lt;ctrl name='UiPath' role='text' automationid='' check:text='UiPath' /&gt;" Guid="331b0c34-d5f1-4b51-98dd-64704ac2d2cb" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIUAAAA6CAYAAACeRpqcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAisSURBVHhe7Zz7U5TXGcfzryhEY4xT0zbTtGmStpk0baedOL1MpzPt1Ok0Y5uY1gRRhAYdo9GiUoOxVUQ76gKygRLYZRfkslwky0VAdgHZBfbCLuydf+Hb97L7Xs9eXpaFVzg/fH5weM67e8778T3Pec7Z97mFhQUsLS1xeDweeL1eDr/fj+XlZY5AIMCxsrLCsbq6yhEKhQTC4bBAJBIRiEajHLFYjEg8HkcikdDM2toapUBwUiwuLnJIpfD5fCopgsGgbqRgIXWIkj9UCooKKgVFBZWCooJKQVFBpaCooFJQVHBSpMRgaxVSKVK1CqkULCQppGJIpUiJQRIiBemG5wqpU5T80J0UAbsdhyvbUfSxCT+pnYAjIpdACalT25swGq6x48Oz79IYpohx60dfUoRmcLqyjelsinYcbvPJJFBC6tT2ZoukmDO2Y9cHD7DrKIsRv66fyUOKVdjudqDoo694jnfhxnQaKYKPcUQQgufgLYdMAhlcvDhAmdh3yoI3z/XgWP0Yup6EECUMxrPBTpNC65NCgxRKXr4whBZnlDgo+manScGgKafIQwqW4lIrSjt9W/jUiGFp3IHrdd1452quN3cHSqEJhRT7q4fRZJ1U0zGKz2704t1ykxArUGJFRd8KcXAKStSNf30mfp/cby6VIjMKKQ7WOYmdFInC2fc1flcutmHZc2YI1gApvoBE5nHxU/E76EoKt9stk4JFkIITo0klRaqAlasUfXfNOpGCJzY/gb/KxDDhcLufGFswqBT6kmJtLQFnaw/2Stq+9PkEXMTYAkGl0JsUa0j4J3DkuNi2qGwApig5tiBQKfQnxVpsCdcuim2LSrtR6yTEFQoqRa5SRDFw38p0NlmnKH2Imw6JBErykUIxuJmliMHjmEV94yD+dMGC75ZJVzFmfOdMN96vn8CAK1PdQ/F5OWFGRX/m6yilCD2dw+27vThU2YH9yZji0g58/1wvKozTeByIS65FhkqRak+Uglmt2Ebw/lnCUpaIGb80zMAju0aKAksRX4alvhuvyNqrKT7RhfP9gYy1mZ0rRdSFS+ckA3aiD4ZFeUzQapMlo7lhwjuGOcKgF1CKuB8NXzDLflnbDJRYcbo/pLiuyHMulwusGFIpZpva5FIYnCopWJRSpMTQKoV4pmI9UrCxfGe1SBF3j+OwJNHce86OYUVMsKNP+Dv7CP7VzREYBt2Y8yaniUQE7slp1NRY5fIwfawez/KY3qicosqOBkNX8vPNeJf5jm0TASxzSXMMPtc8jPV9+IE0qWZ44TzT3zSJ9Q6VIo4x40PZjXzj/pwqjpfCjEN3pjAVkv9NTgS2e53CtVi+zXyXjOXzDZKi+LgJ+5kbnm1aCNqH8TOZGB2osJHF3ZFSxJ4+xntlkgFivlPNhDou2DWcdf5NkVh+gmOSaz5/ehg2QpzABknBkVOpnvmP0PhQ1u6VOzOEuB0nRQK+YbuqzP3DO074ifFaiMB4XZKQlvbg9iwpLskGSvHyv6fSJLdy4u4x/F7SLt1n7gApmHl1wYuh3hFUXLIIy7QUG7fvEcOgQTKFZKt7bJgU6acBFYrkurh8CF2EuG0lhVZePDsEs1c9KOtFmphumhQnbWjJWWpF27JBWAhxO1SKXJJHMgmmP/PzzJPHNonGr75GZe0AV9B6/ROzfAWySVJkzV1k5CGF66EVb25DKfaVd+KPdSMwaTpxxR6EmcKVG914m3QeIx2bJEXu7Vg0SsEWsAQpejrxow8aZVKwB3hzkYKFJMXuY60Fl4J8yGYa/Q6/WFvQQMztRNUVS84FrBeY5aHw7+0txQO8dms8DymCaKxpFaVg5sC2UGGk0FK8yob6zAXPgQorflMzgLL6MUa4KXQ99mN2kT8IvBU5xaZJseTowx8kUrxYNYTJ9Uqx6sLV86IUe88OY0gihC6liPtQd0U6VZjw87psG17bXAqPawSVp0Qpdh/vRLNnfVKEl0bx3seiFC99MQGPzqUIjw7jx6mBY3jrPmkvQ43PtJ2l8LjQUN0kSLHraDOOti2sQ4ownC1d2MMIwUvRhj+3+2RC6E+KBJ629gjXZHOg6nFSnJIoOm9bxHbbTwoPczPNOCBI0YQ9lb3o9WmTIux34NMzvBCcFMxA/XdOLoT+pNBYhEqSCM7gE+6nCTm2exal8DJTSNlJUQqW16+PYiZXKUJLuP95myAEy2u1T1RTh+6lyOlJEUG/sFOZRKMUpF1aMpssRUoM/pUEHtgfMNk2J4Uoxvcu98PiFN+UR5Ii4J5GdVW7MG1wT4kT3bhHeEqk4MXQR06hPEdx4PIoxtOe34xgtLVXfbgl6xNGcYM4+XIpV2+pFF54l5y4fflLmRS7PjRi999a8Op5K/5x7xEMbSM87SO422DDkQvt+EYysRT4yIRT3X6iDCn0JIVyx5OF/Zmhwc4s15PH2cL+ZYwNjqHin3wdo/hkD64aNCSaa3FMGuW7lntO9+OO3cudhYivBDBgfYRbQ8p2Wy0Fg8/tQO2VZjwvk+JLCc08f28RkQhRVGJCiXkRq1l+ea4nKdhkc5ZZXmY72iZQYsFf2hfh07IkZYgvTOJDQi1ERPsZzcxskBTs6wj8Pjd6mizMMs2oSYo3Lg2g2cHnGNleR6AvKVjYaaEPrypOLCmR/h5VU52Cg1np2IYUh1+k6FmK5Hsqlv2LsHc/wsX/WPCL8lZ865hUiv/hm4z1P63qxoXmJ3i0sCKsQp5NKXjCXheMzLR4qNKCg8LN409wlyhOR2uXgic058A1xd7KvlNW/PbmKLpcyni9SZGsaqaSzHSJplQGbVIQbnwOKDtFyQ8qBUWFSgp2Cz2TFKkt9JQU6Y76k6TIJEY+UrCQOkdZH1QKigoqBUUFlYKigkpBUUGloKigUlBUUCkoKjgpWJRSpMSQvo45nRRKMVgptIrBSpGPGKTOUdYHlYKigkpBUUGloKigUlAUrOH/drYXjuQbfnoAAAAASUVORK5CYII=" InformativeScreenshot="facfe0108f98ad39e2ce1b8c050a957c.png" ScopeSelectorArgument="&lt;wnd app='uidemo.exe' cls='HwndWrapper*' title='UIDemo' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </ActivityAction>
+        </uta:VerifyControlAttribute.ActivityToTest>
+        <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+          <ActivityFunc x:TypeArguments="x:Object">
+            <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_1">
+              <uta:ArgumentsBridge.Input>
+                <InArgument x:TypeArguments="x:Object">
+                  <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID0}" />
+                </InArgument>
+              </uta:ArgumentsBridge.Input>
+            </uta:ArgumentsBridge>
+          </ActivityFunc>
+        </uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+        <uta:VerifyControlAttribute.Expression>
+          <InArgument x:TypeArguments="x:Boolean">[True]</InArgument>
+        </uta:VerifyControlAttribute.Expression>
+      </uta:VerifyControlAttribute>
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke CloseAllApplications workflow" sap:VirtualizedContainerService.HintSize="534,115.33333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Framework\CloseAllApplications.xaml">
+        <ui:InvokeWorkflowFile.Arguments>
+          <scg:Dictionary x:TypeArguments="x:String, Argument" />
+        </ui:InvokeWorkflowFile.Arguments>
+      </ui:InvokeWorkflowFile>
+    </Sequence>
+  </Sequence>
+</Activity>
